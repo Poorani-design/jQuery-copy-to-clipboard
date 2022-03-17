@@ -1,0 +1,51 @@
+body{
+  margin:0;
+  padding:0;
+  background-color: #525151;
+  
+  display: flex;
+  height: 100vh;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  font-family: 'Monsterrat',sans-serif;
+}
+.container
+{
+ width:420px;
+ height:330px;
+ padding:25px;
+ background-color: #eeeeee;
+ border:1px solid #a0a0a0;
+ border-radius: 10px;
+}
+#txtField{
+ resize: none;
+ height: 190px;
+ width:100%;
+ font-size: 1.1rem;
+}
+#copy-btn
+{
+ cursor:pointer;
+ float: left;
+ margin:10px;
+ padding:8px;
+ background-color: dodgerblue;
+ outline: none;
+ border:none;
+ color:#fff;
+ transform: scale(1.20);
+ /* transition: .2s; */
+}
+#copy-btn:active{
+ transform: scale(1.05);
+}
+#copied-btn{
+ color:transparent;
+ opacity: 0.6;
+ transition:0;
+ margin-top: 30px;
+ font-size:1.5rem;
+}

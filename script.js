@@ -9,7 +9,9 @@ $(document).ready(function(){
 
    $("#copy-btn").click(function()
    {
-    $("#copied-btn").css({"color":"#000", "transition":"2000ms", "translate":"scale(1.5)"});
+      $("#copied-btn").css({"color":"#000", "transition":"5s", "translate":"scale(1.5)","opacity":"1"});
+
+      
    })
 });   
         
